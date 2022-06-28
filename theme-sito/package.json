@@ -1,0 +1,1 @@
+{"name":"theme-sito","displayName":"%displayName%","description":"%description%","version":"1.0.0","publisher":"vscode","license":"MIT","engines":{"vscode":"*"},"contributes":{"themes":[{"id":"Sito","label":"%themeLabel%","uiTheme":"vs-dark","path":"./themes/Sito-color-theme.json"}]},"repository":{"type":"git","url":"https://github.com/microsoft/vscode.git"}}
