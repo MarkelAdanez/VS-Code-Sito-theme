@@ -76,6 +76,8 @@
 				"keyword.operator.comparison.cs",
 				"keyword.operator.relational.cs",
 				"keyword.operator.arithmetic.cs",
+				"punctuation.terminator.statement.cs",
+				"punctuation.separator.colon.cs"
 
 			],
 			"settings": {
@@ -85,11 +87,19 @@
 		{
 			"name": "Comment",
 			"scope": 
-			["comment", "constant.numeric.decimal.cs", "keyword.control.default.cs"
-			],
+			["comment", "constant.numeric.decimal.cs", "keyword.control.default.cs","entity.other.attribute-name.html"],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#12e9e9"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": 
+			["entity.name.tag.html","punctuation.definition.tag.begin.html","punctuation.definition.tag.end.html"],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ec36b6"
 			}
 		},
 		{
